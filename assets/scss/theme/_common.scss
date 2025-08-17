@@ -1,0 +1,89 @@
+@use '../utils/' as *;
+
+.w-img{
+	& img{
+		width: 100%;
+	}
+}
+.m-img{
+	& img{
+		max-width: 100%;
+	}
+}
+img{
+	max-width: 100%;
+}
+
+.fix {
+    overflow:hidden
+}
+.clear{
+    clear: both;
+}
+
+.z-index-1{
+	z-index: 1;
+}
+.z-index-2{
+	z-index: 2;
+}
+.z-index-3{
+	z-index: 3;
+}
+
+.z-index-11{
+	z-index: 11;
+}
+.overflow-y-visible{
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+.overflow-x-visible{
+	overflow-x: visible;
+	overflow-y: hidden;
+}
+
+.p-relative{
+	position: relative;
+}
+.p-absolute{
+	position: absolute;
+}
+// custome container
+.container-1300{
+	max-width: 1320px;
+}
+
+// bg color
+.bg-white{
+	background-color: #ffff;
+}
+.bg-black{
+	background-color: #000;
+}
+
+// Border-redius
+.br-20{
+	border-radius: 20px;
+}
+
+//  Font family
+.tp-sub-font {
+  font-family: var(--tp-font-sub-heading);
+}
+.tp-sub-font-2 {
+  font-family: var(--tp-font-sub-heading-2);
+}
+.tp-heading-font {
+  font-family: var(--tp-font-heading);
+}
+.tp-heading-font-2{
+  font-family: var(--tp-font-heading-2);
+}
+.tp-body-font{
+	font-family: var(--tp-font-body);
+}
+
+.container-1400{
+	max-width: 1430px;
+}

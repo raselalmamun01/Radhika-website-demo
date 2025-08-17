@@ -1,0 +1,25 @@
+@use '../../utils/' as *;
+.tp-about{
+    &-img{
+        & img{
+            border-radius: 16px;
+        }
+    }
+    &-subtitle {
+        font-size: 25px;
+        font-weight: 600;
+        color: var(--tp-prink-color);
+    }
+    &-title{
+        font-size: 60px;
+        color: var(--tp-theme2-color);
+        line-height: 1.2;
+    }
+    &-content{
+        margin-left: 20px;
+      & p{
+        font-size: 18px;
+        color: var(--tp-black-color);
+      }
+    }
+}

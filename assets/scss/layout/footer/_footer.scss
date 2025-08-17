@@ -1,0 +1,102 @@
+@use '../../utils/' as *;
+.tp-footer {
+  &-social {
+    & a {
+      width: 50px;
+      height: 50px;
+      background: #ffff;
+      display: inline-block;
+      border-radius: 100px;
+      text-align: center;
+      line-height: 2.2;
+      margin-right: 3px;
+        & i{
+            font-size: 25px;
+            color: #000;
+            text-align: center;
+            line-height: 2.0;
+        }
+      @include tp-transition(0.3s);
+
+      &:hover {
+        background-color: var(--tp-theme-color);
+      }
+    }
+  }
+  &-cta {
+    & a {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      display: block;
+    }
+  }
+  &-gelley {
+    & img {
+      height: 80px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+      z-index: 2;
+      position: relative;
+    }
+  }
+  &-col {
+    &-3 {
+      margin-left: 55px;
+       @media #{$lg, $md,$sm} {
+          margin-left: 0;
+        }
+    }
+  }
+  &-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  &-widget {
+    & ul {
+      & li {
+        list-style: none;
+        margin-bottom: 9px;
+        & a {
+          color: #fcfafa;
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    & p {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      margin-bottom: 7px;
+      margin-top: 13px;
+    }
+      & h4{
+      @media #{$lg} {
+         font-size: 24px;
+      }
+  }
+  }
+  &-copyright {
+    & p {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: -0.36px;
+      & a {
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: -0.36px;
+        border-bottom: 2px solid #fff;
+        font-family: var(--tp-font-heading);
+      }
+    }
+  }
+
+}

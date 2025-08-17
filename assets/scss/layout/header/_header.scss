@@ -1,0 +1,50 @@
+@use '../../utils/' as *;
+.tp-header{
+    &-area{
+    }
+    &-transparent {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    }
+    &-bg{
+        position: relative;
+        z-index: 22;
+    }
+    &-logo{
+        width: 320px;
+    }
+    &-content{
+        width: 680px;
+        
+    }
+    &-right{
+        width: 320px;
+        text-align: center;
+    }
+    &-menu{
+
+        & ul{
+            margin-left: 20px;
+            & li {
+                display: inline-block;
+                & a{
+                    display: inline-block;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-right: 21px;
+                }
+            }
+        }
+    }
+    &-phone{
+        & a{
+            font-size: 20px;
+            color: #121810;
+            font-weight: 500;
+            margin-left: 10px;
+        }
+    }
+}
+

@@ -1,0 +1,1 @@
+sass --watch "F:\website Demo list\Radhika\Radhika-demo\html\assets\scss\main.scss":"F:\website Demo list\Radhika\Radhika-demo\html\assets\css\style.css"
