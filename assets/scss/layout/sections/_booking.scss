@@ -16,6 +16,7 @@
             color: #ffff;
             @include tp-placeholder(){
                 color: #e6e3e3;
+                text-transform:capitalize;
             }
         }
         & textarea{

@@ -198,7 +198,6 @@ textarea {
   color: var(--tp-common-black);
   border: 0;
   border-bottom: 1px solid #57595C;
-  text-transform: uppercase;
   font-weight: 500;
 }
 input[type=text]::-webkit-input-placeholder,
@@ -2015,15 +2014,19 @@ img {
 }
 .tp-booking-input input::-webkit-input-placeholder {
   color: #e6e3e3;
+  text-transform: capitalize;
 }
 .tp-booking-input input:-moz-placeholder {
   color: #e6e3e3;
+  text-transform: capitalize;
 }
 .tp-booking-input input::-moz-placeholder {
   color: #e6e3e3;
+  text-transform: capitalize;
 }
 .tp-booking-input input:-ms-input-placeholder {
   color: #e6e3e3;
+  text-transform: capitalize;
 }
 .tp-booking-input textarea {
   font-size: 14px;
